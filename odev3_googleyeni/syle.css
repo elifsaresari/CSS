@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.text {
+  display: flex;
+  width: 580px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #dfe1e5;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  padding: 10px 0px;
+  padding: 10px 0px;
+}
+input[type="text" i] {
+  width: 100vh;
+  border: none;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+input[type="text"]:active {
+  border: 0px transparent;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+header {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #5f6368;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 230px;
+}
+.boxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxmain {
+  margin-bottom: 30px;
+}
+input[type="submit" i] {
+  width: 150px;
+  text-align: center;
+  margin-right: 10px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: inherit;
+  color: #5f6368;
+  padding: 10px 0px;
+}
+footer {
+  padding: 25px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+ul {
+  list-style: none;
+}
+.headerli {
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+.footerli {
+  padding-right: 25px;
+}
+.headerli a {
+  color: #636262;
+  font-size: small;
+}
+.footerli a {
+  color: #636262;
+}
