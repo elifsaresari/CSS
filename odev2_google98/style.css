@@ -1,0 +1,80 @@
+body{
+    font-size: 14px;
+}
+header{
+    width: 301px;
+    height: 113px;
+    margin: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+.ortala{
+    display: flex;
+    margin: auto;
+}
+input{
+    width: 300px;
+}
+div>p{
+    width: 200px;
+}
+input[type=submit]{
+    width: auto;
+    display: -ms-inline-grid;
+    margin-right: 3px;
+    
+}
+div.ortala{
+    width: max-content;
+}
+div.kutu1{
+    width: 35%;
+    height: 60px;
+    background-color: #7EE5DA;
+    float: left;
+    margin-right: 3px;
+    padding: 10px 0px;
+}
+div.kutu1 a{
+    width:100%;
+    display: block;      
+}
+footer{
+    width:90%;
+    margin: auto;
+}
+a{
+    text-align: center;
+}
+div.kutu2 {
+    width:20%;
+    height: 60px;
+    background-color: #70CCC2;
+    float: left;
+    margin-right: 3px;
+    padding: 10px 0px;
+}
+div.kutu2 a{
+    width:100%;
+    display: block;
+}
+div.kutu3 {
+    width:44.5%;
+    height: 80px;
+    background-color: #62B3AA;
+    float: left;
+    
+}
+.kutu3text{
+    width: 150px;
+    
+}
+.kutu3p{
+    width:80px;
+}
+.kutu3p2{
+    width:120px;
+}
